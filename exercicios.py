@@ -12,11 +12,11 @@ if plano_usuario == "bronze" :
     "Titanic",
     "Harry Potter e a Pedra Filosofal",
     "De Volta para o Futuro")
-if plano_usuario == "prata"  :
-    print("Matrix","Gladiador","Os Vingadores")
+if plano_usuario == "prata" and idade >= 18 :
+    print("Matrix","Gladiador","Os Vingadores" "O Exorcista","It — A Coisa")
 
-if plano_usuario == "ouro" :
-    print("Interestelar","Clube da Luta","A Origem")
+if plano_usuario == "ouro" and idade >= 18 :
+    print("Interestelar","Clube da Luta","A Origem","O Exorcista","It — A Coisa")
 
-elif plano_usuario == "ouro" or "prata" and  idade >= 18 :
-    print("O Exorcista","It — A Coisa")
+elif plano_usuario == "ouro" or "prata" and  idade <= 18 :
+    print("Existem alguns filmes que são muito pesados para você !")
